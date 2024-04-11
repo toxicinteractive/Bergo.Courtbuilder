@@ -1,0 +1,22 @@
+https://bergocourtbuilder.com
+
+loopia.com
+user: bergocourtbuilder.com
+password: fugodFiov6
+
+MySql
+https://phpmyadmin579.loopia.se
+User: bergophp@b181598
+Password: Database4Design!
+
+FTP
+FTP Server: ftpcluster.loopia.se
+username: bergodesigner
+password: Court2Design!
+
+EMAIL
+request@bergocourtbuilder.com
+password: Request2Bergo!
+
+design@bergocourtbuilder.com
+password: Send2Mail!
