@@ -126,9 +126,9 @@ if(isset ($_GET["id"])){
 				<div class="more-opt">
 					<label>
 					<select runat="server" id="selectTile" onchange="changeTile(this.value)" title="Select Bergo tiles" autocomplete="off">
-						<option value="multisport-tile" >Bergo Multisport</option>
-						<option value="tennis-tile" >Bergo Tennis</option>
-						<option value="top-tile" id="selectTileTopTile">Bergo Top Tile</option>
+						<option value="multisport-tile" >Bergo Ultimate</option>
+						<!-- <option value="tennis-tile" >Bergo Tennis</option> -->
+						<!-- <option value="top-tile" id="selectTileTopTile">Bergo Top Tile</option> -->
 					</select>
 					</label>
 				</div>
@@ -136,7 +136,7 @@ if(isset ($_GET["id"])){
 					<p>Main court:</p>
 					<label>			
 					<select runat="server" id="select" title="Main court" autocomplete="off">
-						<optgroup label="Bergo Multisport">
+						<!-- <optgroup label="Bergo Multisport"> -->
 							<option value="badminton" >Badminton</option>
 							<option value="basketball" >Basketball</option>
 							<option value="basketball3x3" >Basketball 3x3</option>
@@ -148,11 +148,11 @@ if(isset ($_GET["id"])){
 							<option value="netball" >Netball</option>
 							<option value="pickleball" >Pickleball</option>
 							<option value="volleyball" >Volleyball</option>						
-						</optgroup>
-						<optgroup label="Bergo Tennis">
+						<!-- </optgroup> -->
+						<!-- <optgroup label="Bergo Tennis"> -->
 							<option value="tennis" >Tennis</option>
 							<option value="padeltennis" >Padel tennis</option>
-						</optgroup>
+						<!-- </optgroup> -->
 					</select>
 					</label>
 				</div>
@@ -272,58 +272,58 @@ if(isset ($_GET["id"])){
 			</div><!--/light-switch-->	 
 		</div>
 		<div class="tile-info">
-			<img id="tileModel" src="img/multisport-tile-dark-blue.png" />
+			<img id="tileModel" src="img/multisport-tile-dark-blue-no-text.png" />
 			<div class="tile-info-multisport">
 				<div class="standard-colors">
 					<div class="colors-multisport">
 						<p class="color-title">STANDARD<strong> COLORS</strong></p>
 						<div class="color">
-							<div class="color-square" id="#ffffff" style="background: #ffffff" onclick="changeTileColor('multisport-tile-white')">
+							<div class="color-square" id="#ffffff" style="background: #ffffff" onclick="changeTileColor('multisport-tile-white-no-text')">
 							</div>
 							<p>True White</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#aeaeb8" style="background: #aeaeb8" onclick="changeTileColor('multisport-tile-silver-grey')">
+							<div class="color-square" id="#aeaeb8" style="background: #aeaeb8" onclick="changeTileColor('multisport-tile-silver-grey-no-text')">
 							</div>
 							<p>Silver Grey</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#4b575f" style="background: #4b575f" onclick="changeTileColor('multisport-tile-graphite-grey')">
+							<div class="color-square" id="#4b575f" style="background: #4b575f" onclick="changeTileColor('multisport-tile-graphite-grey-no-text')">
 							</div>
 							<p>Graphite Grey</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#1a171b" style="background: #1a171b" onclick="changeTileColor('multisport-tile-silk-black')">
+							<div class="color-square" id="#1a171b" style="background: #1a171b" onclick="changeTileColor('multisport-tile-silk-black-no-text')">
 							</div>
 							<p>Silk Black</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#fed011" style="background: #fed011" onclick="changeTileColor('multisport-tile-yellow-flame')">
+							<div class="color-square" id="#fed011" style="background: #fed011" onclick="changeTileColor('multisport-tile-yellow-flame-no-text')">
 							</div>
-							<p>Yellow Flame</p>
+							<p>Plain Yellow</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#f08925" style="background: #f08925" onclick="changeTileColor('multisport-tile-orange-glow')">
+							<div class="color-square" id="#f08925" style="background: #f08925" onclick="changeTileColor('multisport-tile-orange-glow-no-text')">
 							</div>
-							<p>Orange Glow</p>
+							<p>Plain Orange</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#e2001a" style="background: #e2001a" onclick="changeTileColor('multisport-tile-red')">
+							<div class="color-square" id="#e2001a" style="background: #e2001a" onclick="changeTileColor('multisport-tile-red-no-text')">
 							</div>
 							<p>Red</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#006ab3" style="background: #006ab3" onclick="changeTileColor('multisport-tile-light-blue')">
+							<div class="color-square" id="#006ab3" style="background: #006ab3" onclick="changeTileColor('multisport-tile-light-blue-no-text')">
 							</div>
 							<p>Light Blue</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#00336e" style="background: #00336e" onclick="changeTileColor('multisport-tile-dark-blue')">
+							<div class="color-square" id="#00336e" style="background: #00336e" onclick="changeTileColor('multisport-tile-dark-blue-no-text')">
 							</div>
 							<p>Dark Blue</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#185b1a" style="background: #185b1a" onclick="changeTileColor('multisport-tile-green')">
+							<div class="color-square" id="#185b1a" style="background: #185b1a" onclick="changeTileColor('multisport-tile-green-no-text')">
 							</div>
 							<p>Green</p>
 						</div>
@@ -336,12 +336,13 @@ if(isset ($_GET["id"])){
 					FDA approved. No emissions. (No PVC).
 					<br><br>
 					<span>Size of tile:</span><br>
-					303,3 x 303,3 mm<br>
+					Building dimensions ≈ 376,5 x 376,5 mm<br>
+					<!-- 303,3 x 303,3 mm<br>
 					Thickness of tile: 14,1 mm
-					<br><br>	
-					<span>Point load:</span><br>
+					<br><br>	 -->
+					<!-- <span>Point load:</span><br>
 					500 ton/m² = 5000 kg/dm² 170 kg/cm²
-					<br>					
+					<br>					 -->
 					</p>
 				</div>
 			</div>
@@ -2161,7 +2162,7 @@ if(isset ($_GET["id"])){
 				if (document.getElementById("togBtnHoops").value == "on") {
 					$('#hoop-right').css('display', 'none');				
 				}			
-				createMainField(<?php echo json_encode($basketball3x3); ?> , 12.5, 17, 0.75, 0.75, 1, 1, "img/basketball3x3-silhouette.png", "basketball3x3", "#fed011", "#e2001a", "#48667E", "#1a171b", "#467B22", "basketball 3x3",0,0);				
+				createMainField(<?php echo json_encode($basketball3x3); ?> , 14.1, 17.2, 2, 1.1, 1.1, 1.1, "img/basketball3x3-silhouette.png", "basketball3x3", "#fed011", "#e2001a", "#48667E", "#1a171b", "#467B22", "basketball 3x3",0,0);				
 			}
 			else if($(this).val() == 'basketmini'){
 				if (document.getElementById("togBtnHoops").value == "on") {

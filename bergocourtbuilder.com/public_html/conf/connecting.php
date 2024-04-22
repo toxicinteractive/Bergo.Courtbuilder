@@ -7,10 +7,10 @@
 	$db   = 'bergocourtbuilder_com';
 
 	# For live
-	#$user = 'bergo@b181598';
+	$user = 'bergo@b181598';
 
 	# For local testing
-	$user = 'bergophp@b181598';
+	#$user = 'bergophp@b181598';
 
 	$pass = 'Database4Design!';
 
