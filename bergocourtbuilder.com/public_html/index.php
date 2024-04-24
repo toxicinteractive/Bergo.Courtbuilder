@@ -272,7 +272,7 @@ if(isset ($_GET["id"])){
 			</div><!--/light-switch-->	 
 		</div>
 		<div class="tile-info">
-			<img id="tileModel" src="img/multisport-tile-dark-blue-no-text.png" />
+			<img id="tileModel" src="img/smallTiles/multisport-tile-dark-blue-no-text.png" />
 			<div class="tile-info-multisport">
 				<div class="standard-colors">
 					<div class="colors-multisport">
@@ -281,6 +281,11 @@ if(isset ($_GET["id"])){
 							<div class="color-square" id="#ffffff" style="background: #ffffff" onclick="changeTileColor('multisport-tile-white-no-text')">
 							</div>
 							<p>True White</p>
+						</div>
+						<div class="color">
+							<div class="color-square" id="#c3c5c6" style="background: #c3c5c6" onclick="changeTileColor('multisport-tile-stone-grey-no-text')">
+							</div>
+							<p>Stone Grey</p>
 						</div>
 						<div class="color">
 							<div class="color-square" id="#aeaeb8" style="background: #aeaeb8" onclick="changeTileColor('multisport-tile-silver-grey-no-text')">
@@ -298,24 +303,14 @@ if(isset ($_GET["id"])){
 							<p>Silk Black</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#fed011" style="background: #fed011" onclick="changeTileColor('multisport-tile-yellow-flame-no-text')">
+							<div class="color-square" id="#c4b29c" style="background: #c4b29c" onclick="changeTileColor('multisport-tile-cedar-wood-no-text')">
 							</div>
-							<p>Plain Yellow</p>
+							<p>Cedar Wood</p>
 						</div>
 						<div class="color">
-							<div class="color-square" id="#f08925" style="background: #f08925" onclick="changeTileColor('multisport-tile-orange-glow-no-text')">
+							<div class="color-square" id="#bc4f33" style="background: #bc4f33" onclick="changeTileColor('multisport-tile-tennis-red-no-text')">
 							</div>
-							<p>Plain Orange</p>
-						</div>
-						<div class="color">
-							<div class="color-square" id="#e2001a" style="background: #e2001a" onclick="changeTileColor('multisport-tile-red-no-text')">
-							</div>
-							<p>Red</p>
-						</div>
-						<div class="color">
-							<div class="color-square" id="#006ab3" style="background: #006ab3" onclick="changeTileColor('multisport-tile-light-blue-no-text')">
-							</div>
-							<p>Light Blue</p>
+							<p>Tennis Red</p>
 						</div>
 						<div class="color">
 							<div class="color-square" id="#00336e" style="background: #00336e" onclick="changeTileColor('multisport-tile-dark-blue-no-text')">
@@ -323,10 +318,46 @@ if(isset ($_GET["id"])){
 							<p>Dark Blue</p>
 						</div>
 						<div class="color">
+							<div class="color-square" id="#006ab3" style="background: #006ab3" onclick="changeTileColor('multisport-tile-light-blue-no-text')">
+							</div>
+							<p>Light Blue</p>
+						</div>
+						<div class="color">
+							<div class="color-square" id="#48667e" style="background: #48667e" onclick="changeTileColor('multisport-tile-steel-blue-no-text')">
+							</div>
+							<p>Steel Blue</p>
+						</div>
+						<div class="color">
 							<div class="color-square" id="#185b1a" style="background: #185b1a" onclick="changeTileColor('multisport-tile-green-no-text')">
 							</div>
 							<p>Green</p>
 						</div>
+						<div class="color">
+							<div class="color-square" id="#467b22" style="background: #467b22" onclick="changeTileColor('multisport-tile-spring-grass-no-text')">
+							</div>
+							<p>Spring Grass</p>
+						</div>
+						<div class="color">
+							<div class="color-square" id="#252625" style="background: #252625" onclick="changeTileColor('multisport-tile-dark-green-matter-no-text')">
+							</div>
+							<p>Dark Green Matter</p>
+						</div>
+						<div class="color">
+							<div class="color-square" id="#f08925" style="background: #f08925" onclick="changeTileColor('multisport-tile-orange-glow-no-text')">
+							</div>
+							<p>Plain Orange</p>
+						</div>
+						<div class="color">
+							<div class="color-square" id="#fed011" style="background: #fed011" onclick="changeTileColor('multisport-tile-yellow-flame-no-text')">
+							</div>
+							<p>Plain Yellow</p>
+						</div>						
+						<div class="color">
+							<div class="color-square" id="#e2001a" style="background: #e2001a" onclick="changeTileColor('multisport-tile-red-no-text')">
+							</div>
+							<p>Plain Red</p>
+						</div>
+						
 					</div>
 					<p class="tile-info-text">
 					<span>Material:</span><br>
@@ -3627,7 +3658,7 @@ if(isset ($_GET["id"])){
 		
 		/* Change color of tile image in the info div */
 		function changeTileColor(selectedDiv){
-			var selectedTileImg = "img/" + selectedDiv + ".png";
+			var selectedTileImg = "img/smallTiles/" + selectedDiv + ".png";
 			var selectedTileImgBig = "img/bigTiles/" + selectedDiv + ".jpg";
 			document.getElementById("tileModel").src = selectedTileImg;
 			//alert(selectedDiv);

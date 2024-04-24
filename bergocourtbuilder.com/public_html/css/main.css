@@ -95,7 +95,7 @@ body{
 }
 .color {
   width: 50px;
-  height: 80px;
+  height: 87px;
   margin: 2px 2px;
   text-align: center;
   display: inline-block;
@@ -1895,7 +1895,7 @@ div#night.indoor-nights ~ .bottom-div p{
   }
   .color {
     width: 52px;
-    height: 75px;
+    height: 82px;
   }
 }
 
@@ -1908,7 +1908,7 @@ div#night.indoor-nights ~ .bottom-div p{
   }
   .color {
     width: 48px;
-    height: 75px;
+    height: 80px;
   }
   .color-square {
     width: 40px;
@@ -1977,7 +1977,7 @@ div#night.indoor-nights ~ .bottom-div p{
   }
   .color {
     width: 42px;
-    height: 70px;
+    height: 80px;
     margin: 1px;
   }
   .color-square {
@@ -2109,7 +2109,7 @@ div#night.indoor-nights ~ .bottom-div p{
   }
   .color {
     width: 42px;
-    height: 70px;
+    height: 80px;
     margin: 1px;
   }
   .color-square {
@@ -2241,7 +2241,7 @@ div#night.indoor-nights ~ .bottom-div p{
   }
   .color {
     width: 40px;
-    height: 70px;
+    height: 80px;
   }
   .color-square {
     width: 40px;
